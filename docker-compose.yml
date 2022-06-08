@@ -16,7 +16,9 @@ services:
     server:
       container_name: server
       image: server-image
-      build: ./data/Dockerfile.dev
+      build:
+        context: ./data
+        dockerfile: Dockerfile.dev
         
       ports: 
         - "8000:8000"
