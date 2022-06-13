@@ -10,9 +10,9 @@ To run this project assuming that docker is already installed on your pc.
  https://hub.docker.com/r/mustafiz883/dockerize-react-app-with-json-server 
  And pull image using below command
 
- ## For Client `docker pull mustafiz883/dockerize-react-app-with-json-server:server`
+ ## For Client : `docker pull mustafiz883/dockerize-react-app-with-json-server:server`
 
- ## For Server `docker pull mustafiz883/dockerize-react-app-with-json-server:client`
+ ## For Server : `docker pull mustafiz883/dockerize-react-app-with-json-server:client`
 
 
 
