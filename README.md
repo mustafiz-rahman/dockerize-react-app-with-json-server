@@ -1,16 +1,18 @@
-# Getting Started with Create React App
+# Getting Started with Docker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple react crud app with json server.Main focous was how to write docker file ,docker composer and how to run them as container.
+To run this project assuming that docker is already installed on your pc.
 
-## Available Scripts
+## To run this project
+### ` docker-compose up `
 
-In the project directory, you can run:
+## If you want download image and run that on you machine,Please visit below link
+ https://hub.docker.com/r/mustafiz883/dockerize-react-app-with-json-server 
+ And pull image using below command
 
-### `npm start`
+ ## For Client `docker pull mustafiz883/dockerize-react-app-with-json-server:server`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ ## For Server `docker pull mustafiz883/dockerize-react-app-with-json-server:client`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+
 

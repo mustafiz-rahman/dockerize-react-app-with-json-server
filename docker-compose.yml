@@ -3,7 +3,7 @@ version: '3'
 services:
 
     client:
-      container_name: client
+      container_name: dockerize-react-app-with-json-server
       build:
         context: .
         dockerfile: Dockerfile.dev
@@ -15,7 +15,6 @@ services:
 
     server:
       container_name: server
-      image: server-image
       build:
         context: ./data
         dockerfile: Dockerfile.dev
